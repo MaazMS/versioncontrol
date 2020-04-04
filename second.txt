@@ -1,0 +1,6 @@
+Hello 
+working copy  > staging area > repository 
+aleardy
+add new file  staging area
+commit
+ 
