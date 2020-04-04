@@ -3,4 +3,5 @@ working copy  > staging area > repository
 aleardy
 add new file  staging area
 commit
- 
+ git log 
+all info for  file

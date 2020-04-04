@@ -7,4 +7,30 @@ $ ls -a
 ./  ../  .git/
   
 
-Commit the file 
+Commit the file  
+
+add all the changes . means folder and directory 
+we need to tracke the folder  
+commit take spaneshort 
+-m we wirte about the file and folder "message " 
+
+
+commit history git log  
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ git log
+commit 57b5d5d592d89440637d6027f5efabefd12b7d09 (HEAD -> master)
+Author: maazil3861 <maazshaikh7020@gmail.com>
+Date:   Sat Apr 4 13:43:28 2020 -0700
+
+    message of fisrt commit
+
+changes any thing 
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
