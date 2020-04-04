@@ -1,0 +1,10 @@
+maazil@Maaz MINGW64 ~/Desktop/Git
+$ git init
+Initialized empty Git repository in C:/Users/maazil/Desktop                              /Git/.git/
+
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ ls -a
+./  ../  .git/
+  
+
+Commit the file 
