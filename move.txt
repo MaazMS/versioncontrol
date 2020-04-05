@@ -32,4 +32,7 @@ index e4eccfa..a8cf018 100644
 +green new
  
 
- Comparing the Staging Area with the Repository
+ Comparing the Staging Area with the Repository 
+git diff --staged  
+commit
+status

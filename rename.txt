@@ -65,5 +65,63 @@ index a8cf018..69f76dc 100644
 ++change file
 ++
 ++git diff
-:
+: 
+
+
+rename . first rename computer file then change through git
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    first.txt
+        modified:   second.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        delete.txt
+        rename.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ git add rename.txt
+
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ git rm first.txt
+rm 'first.txt'
+
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ git commit -m " I Am rename the file "
+[master d11ccda]  I Am rename the file
+ 1 file changed, 34 insertions(+), 1 deletion(-)
+ rename first.txt => rename.txt (62%)
+
+
+ ls
+delete.txt  rename.txt  second.txt
+
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ git mv second.txt move.txt
+
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ ls
+delete.txt  move.txt  rename.txt
+
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ git commit - " move the file"
+error: pathspec '-' did not match any file(s) known to git.
+error: pathspec ' move the file' did not match any file(s) known to git.
+
+maazil@Maaz MINGW64 ~/Desktop/Git (master)
+$ git commit -m " move the file"
+[master 9b5a65e]  move the file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename second.txt => move.txt (100%)
+
+
+
 
