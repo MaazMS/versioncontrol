@@ -33,4 +33,37 @@ Changes not staged for commit:
 
         modified:   first.txt
 
-no changes added to commit (use "git add" and/or "git commit -a")
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+to check the change file content
+
+$ git diff
+diff --git a/second.txt b/second.txt
+index a8cf018..69f76dc 100644
+diff --git a/second.txt b/second.txt
+index a8cf018..69f76dc 100644
+--- a/second.txt
++++ b/second.txt
+@@ -11,3 +11,25 @@ change file
+ git diff
+ red old
+ green new
++
++$ git diff
++diff --git a/second.txt b/second.txt
++index e4eccfa..a8cf018 100644
++--- a/second.txt
+++++ b/second.txt
++@@ -4,4 +4,10 @@ aleardy
++ add new file  staging area
++ commit
++  git log
++-all info for  file
++\ No newline at end of file
+++all info for  file
+++
+++change file
+++
+++git diff
+:
+
