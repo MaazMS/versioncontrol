@@ -22,5 +22,11 @@
 
 ## Show branch   
 1. **git branch**  
-1. It shows all branches for current github repository.  
+1. It shows all branches for current github repository.     
+
+* Note : when create new branches in a local repository and enter **git branch** it not shows branches and their name.   
+* solution once we create a branch locally use **git add** and **git commit** to add and commit some things after branches   
+name show.   
+  
+
 
