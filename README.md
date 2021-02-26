@@ -12,4 +12,7 @@
    1. Delete branch    
    1. Show branch    
 
-1.     
+1. Merging branch  
+   1. merge without conflict   
+   1. merge with conflict    
+   
