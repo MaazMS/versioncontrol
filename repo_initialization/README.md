@@ -59,4 +59,12 @@ tree
     └── tags
 
 9 directories, 16 files
- ````   
+ ````    
+
+## Create now repository  
+1. If create a new repository without branch name it create on master branch.  
+1. Also create a new repository with branch name.     
+1. check branch name master and current branch by folder name command.  
+1. `cd .git/` under `cat HEAD` show branch name.  
+1. `git status`  it is also showed branch name.  
+1. `git --show-c` also show a current branch.  
