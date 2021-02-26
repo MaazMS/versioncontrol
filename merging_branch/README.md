@@ -47,8 +47,4 @@ Automatic merge failed; fix conflicts and then commit the result.
 1. `>>>>>>>` It shows a new branch with their name b2.     
 1. `=======`  It creates difference between branches.      
 1. developer is chosen correct and useful.   
-1. git add and commit b.txt file.  
-
-
-
-
+1. git add and commit b.txt file.
