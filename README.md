@@ -22,4 +22,10 @@
    1. Remote name  
    1. Remote name rename  
    1. Delete remote name  
-   1. Show a remote name and repository url
+   1. Show a remote name and repository url   
+
+1. git push    
+   1. What is the used of git push    
+   1. Problem working on same branch   
+   1. How to push remote code to central repository  
+   
