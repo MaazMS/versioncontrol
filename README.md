@@ -29,3 +29,8 @@
    1. Problem working on same branch   
    1. How to push remote code to central repository  
    
+1. git pull  
+   1. Why use git pull  
+   1. Master branch changes update remote master  
+   1.  Remote branch changes by central repository   
+   
