@@ -41,4 +41,10 @@
    1. How to check git log   
    1. check status   
    1. git diff file1 file2  
-   1. How to create gitignore
+   1. How to create gitignore  
+ 
+1. [gitHub Linguist](https://github.com/MaazMS/versioncontrol/tree/master/gitHubLinguist)    
+   1. GitHub Linguist
+   1. How does Linguist work  
+   1. How to fix common Linguist issues  
+   1. my versioncontrol repository is not showing markdown language.  
