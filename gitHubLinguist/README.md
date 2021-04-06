@@ -23,5 +23,10 @@
     1. Using `linguist-documentation` attribute to mark or unmark paths as documentation.  
     1. Using the `linguist-vendored` attribute to vendor or un-vendor paths.  
     1. Using the `linguist-generated` attribute to mark or unmark paths as generated.  
-    1. Using the `linguist-detectable` attribute to mark or unmark paths as detectable.  
+    1. Using the `linguist-detectable` attribute to mark or unmark paths as detectable.    
+   
+## my versioncontrol repository is not showing markdown language.
+1. create `.gitattributes` file   
+1. inside `*.md linguist-detectable=true` `*.md linguist-detectable=true`  
+
     
