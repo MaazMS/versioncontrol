@@ -43,7 +43,7 @@
    1. git diff file1 file2  
    1. How to create gitignore  
  
-1. [github alias]()  
+1. [github alias](https://github.com/MaazMS/versioncontrol/tree/master/gitalias)  
    1. What is alias ?   
    1. What is Git Alias?   
-   1. 
+   1.  
