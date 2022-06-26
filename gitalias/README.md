@@ -5,4 +5,8 @@ Aliases are configured in the ~/.bashrc file in your Ubuntu home folder.
 ## What is Git Alias?  
 Git Alias is a collection of git version control alias settings that can help you work faster and better. Git Alias provides short aliases such as `s `for `status`,        
 
+## git add  
+* git a = add
+* git aa = add --all
 
+ 
