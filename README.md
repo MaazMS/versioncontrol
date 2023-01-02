@@ -46,4 +46,3 @@
 1. [github alias](https://github.com/MaazMS/versioncontrol/tree/master/gitalias)  
    1. What is alias ?   
    1. What is Git Alias?   
-   1.  
