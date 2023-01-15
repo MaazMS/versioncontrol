@@ -33,3 +33,6 @@
 1. `touch .gitignore`   
 1. `git add .gitignore`  
 1. `git commit -m "message"`   
+
+## How to delete file in github 
+1. git rm file_name 
