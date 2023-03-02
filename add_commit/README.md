@@ -10,4 +10,27 @@
 2. **git commit -am "message"** or **git commit -a -m "message"**  
 3. After git add commit.
 4. `-m` for message.   
-5. `-a` for    
+5. `-a` for push all the files and folder that are showing modified, deleted.  
+6. Example  
+```Example 
+$ git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   gitstach/README.md
+        
+$ git commit -am "command add and commit used "
+[master 545a83d] command add and commit used
+ 3 files changed, 18 insertions(+), 52 deletions(-)
+ rewrite README.md (98%)
+
+$ git status 
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+```
